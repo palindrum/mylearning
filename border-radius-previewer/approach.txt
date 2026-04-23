@@ -1,0 +1,5 @@
+show a box with borders
+
+have 4 inputs that affect all 4 corner's border of that box
+
+show the output css and make it copyable

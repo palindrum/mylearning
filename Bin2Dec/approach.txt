@@ -1,0 +1,21 @@
+e.g., 101101
+
+-> multiply each binary digit 0 or 1 by 2 raised to the power of its position from last and sum the results
+
+answer:
+1*2^5 + 0*2^4 + 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0
+1*32 + 0 + 1*8 + 1*4 + 0 + 1
+32 + 8 + 4 + 1
+45
+
+requirements: 
+max 8 digits should be allowed
+only 1 and 0 allowed
+
+
+- find total count of whole number
+- check for each 1 and 0
+- take n = 1, run loop until length == n
+- multiply each digit with the length - n
+- if the digit = 0, skip multiplication
+- total out the multiplication

@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Border Radius Previewer</title>
+
+     <style>
+          #displayBox {
+               width: 100px;
+               border: 2px solid black;
+               padding: 10px 20px;
+          }
+     </style>
+</head>
+<body>
+
+     <div id="displayBox">
+          BOX
+     </div>
+
+     topLeft: <br><input type="range" id="top-left"><br>
+     topRight: <br><input type="range" id="top-right"><br>
+     bottomLeft: <br><input type="range" id="bottom-left"><br>
+     bottomRight: <br><input type="range" id="bottom-right"><br>
+
+     <p id="output-css"></p>
+     <button id="copyBtn">Copy</button>
+     <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Border Radius Previewer</title>
+
+     <style>
+          #displayBox {
+               width: 200px;
+               height: 200px;
+               border: 2px solid black;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               margin-bottom: 20px;
+          }
+     </style>
+</head>
+
+<body>
+
+     <div id="displayBox">
+          BOX
+     </div>
+
+     <label>Top Left</label><br>
+     <input type="range" id="top-left" min="0" max="100" value="0"><br><br>
+
+     <label>Top Right</label><br>
+     <input type="range" id="top-right" min="0" max="100" value="0"><br><br>
+
+     <label>Bottom Left</label><br>
+     <input type="range" id="bottom-left" min="0" max="100" value="0"><br><br>
+
+     <label>Bottom Right</label><br>
+     <input type="range" id="bottom-right" min="0" max="100" value="0"><br><br>
+
+     <p id="output-css"></p>
+
+     <button id="copyBtn">Copy CSS</button>
+
+     <script src="script.js"></script>
+</body>
+
+</html>

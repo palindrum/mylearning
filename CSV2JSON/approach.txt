@@ -1,0 +1,2 @@
+get headers from the first line and save them in array
+get the data column wise 
