@@ -1,0 +1,8 @@
+two sections->
+first: list of usernames in left side of the screen
+second: user details in right side of the screen of selected username from the list 
+
+approach: 
+
+clicking on the ul list username will get the id from li item
+we will display the user details in the right side section as result

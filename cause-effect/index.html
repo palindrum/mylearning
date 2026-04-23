@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cause Effect</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="container">
+          <div class="listbox">
+               <ul id="userlist" class="users-list"></ul>
+          </div>
+
+          <div class="infobox">
+               <div id="placeholder">Click a user to view details</div>
+
+               <div id="userdetails" class="users-details" style="display: none;">
+                    <h4>Details of Selected User:</h4>
+                    <p><strong>ID:</strong> <span id="userId"></span></p>
+                    <p><strong>Name:</strong> <span id="username"></span></p>
+                    <p><strong>Address:</strong> <span id="address"></span></p>
+                    <p><strong>Phone:</strong> <span id="telephone"></span></p>
+                    <p><strong>Birthdate:</strong> <span id="birthdate"></span></p>
+               </div>
+          </div>
+     </div>
+
+     <script src="users-list.js"></script>
+     <script src="script.js"></script>
+</body>
+
+</html>
